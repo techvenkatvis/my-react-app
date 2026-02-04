@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import logo from "../assets/riversand.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,6 +23,7 @@ const Header = () => {
       <div className="container">
         <nav className="nav">
           <div className="logo">
+            <img className="logo-img" src={logo} alt="Riversand Logo" />
             <span className="logo-text">Riversands</span>
           </div>
 
