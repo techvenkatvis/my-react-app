@@ -25,10 +25,6 @@
   transition: transform var(--transition-base);
 }
 
-.reason-card:hover .reason-icon {
-  transform: scale(1.1) rotate(-5deg);
-}
-
 .reason-title {
   font-size: 1.25rem;
   font-weight: 700;
